@@ -47,3 +47,9 @@ Normalization - การปรับปรุง Schema ของ database ว�
   - url: https://ancient-brook-30685.herokuapp.com/
   - user : user1@gmail.com, user2@gmail.com
   - pass : 123456
+
+##### *** ฟีเจอร์ที่ไม่ได้ทำ ***
+    - add cart
+    - rating
+    - site map
+    - SEO Implementation
