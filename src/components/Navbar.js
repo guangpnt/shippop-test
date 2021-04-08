@@ -10,20 +10,19 @@ export default function Navbar(props) {
     const [goods, setGoods] = useState([])
     const [basketState, setBasketState] = useState(false)
     const user = localStorage.getItem('user')
-    const basket = JSON.parse(localStorage.getItem('goods'));
+    //const basket = JSON.parse(localStorage.getItem('goods'));
     let userPic
     let totalPrice = 0
     let totalGoods = 0  
 
-    console.log(props.goods)
-
-    useEffect(() => {
+    /*useEffect(() => {
         localStorage.setItem('goods', JSON.stringify(goods))
-    }, [goods])
+    }, [goods])*/
 
     useEffect(() => {
         if (props.goods != undefined) {
             setGoods([...goods, props.goods])
+            console.log(goods)
         }
     }, [props.goods])
 
@@ -72,6 +71,9 @@ export default function Navbar(props) {
                         <a href="/user/login" className="profile-login"><BiUser /></a>
                     }
                 </div>
+            </div>
+            <div className="cart-amount">
+                {totalGoods}
             </div>
             <div className={basketState ? "cart-popup active" : "cart-popup"}>
                 <div className="title">ตะกร้าของฉัน</div>

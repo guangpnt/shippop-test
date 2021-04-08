@@ -15,7 +15,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const [goods, setGoods] = useState([])
+  const [goods, setGoods] = useState()
 
   return (
     <div className="app">
