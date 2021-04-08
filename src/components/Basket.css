@@ -1,0 +1,185 @@
+.basket {
+    margin: 50px 150px 0 150px;
+}
+
+.basket .title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.basket-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket-info .detail {
+    width: 830px;    
+}
+
+.basket-info .detail .border {
+    border-bottom: 1px solid #cfcfcf;
+    margin: 20px 0;
+}
+
+.basket-info .detail .header{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.basket-info .detail .header .goods{
+    width: 350px;
+}
+
+.basket-info .detail .header .price{
+    width: 150px;
+}
+
+.basket-info .detail .header .amount{
+    width: 150px;
+}
+
+.basket-info .detail .header .total{
+    width: 150px;
+}
+
+.basket-info .detail .info {
+    display: flex;
+}
+
+.basket-info .detail .info .goods{
+    display: flex;
+    width: 350px;
+}
+
+.basket-info .detail .info .goods img{
+    width: 90px;
+    height: 140px;
+    margin-right: 20px;
+}
+
+.basket-info .detail .info .goods .name{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.basket-info .detail .info .price {
+    display: flex;
+    width: 150px;
+    font-weight: bold;
+}
+
+.basket-info .detail .info .amount {
+    position: relative;
+    display: flex;
+    font-weight: bold;
+    background-color: rgb(221, 221, 221);
+    width: 80px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 70px;
+}
+
+.basket-info .detail .info .amount .num {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.basket-info .detail .info .amount .num-changer {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 10px;
+    height: 30px;
+}
+
+.basket-info .detail .info .total {
+    display: flex;
+    width: 150px;
+    font-weight: bold;
+}
+
+.basket-info .detail .footer {
+    display: flex;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.basket-info .detail .footer .continue-btn {
+    color: gray;
+    border: 3px solid gray;
+    width: 200px;
+    padding: 5px 0;
+    margin-right: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.basket-info .detail .footer .clear-btn {
+    color: #fff;
+    background-color: #000;
+    border: 3px solid #000;
+    width: 200px;
+    padding: 5px 0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.basket-info .conclusion {
+    background-color: rgb(240, 245, 255);
+    width: 350px;
+    padding: 20px;
+}
+
+.basket-info .conclusion .title {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.basket-info .conclusion .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basket-info .conclusion .shipping-cost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basket-info .conclusion .net-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basket-info .conclusion .msg {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.basket-info .conclusion .border {
+    border-bottom: 1px solid #bebebe;
+    margin-bottom: 20px;
+}
+
+.basket-info .conclusion .btn {
+    width: 100%;
+    border-radius: 50px;
+    background-color: rgb(50, 50, 255);
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+}

@@ -1,0 +1,226 @@
+.payment {
+    margin: 50px 150px 0 150px;
+}
+
+.payment .title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.payment .first-part {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.payment .first-part .address {
+    width: 830px;
+}
+
+.payment .first-part .address .title {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.payment .first-part .address .border {
+    margin-bottom: 20px;
+}
+
+.payment .first-part .address form {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.payment .first-part .address form input {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(182, 181, 181);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.payment .first-part .address form .name {
+    display: flex;
+}
+
+.payment .first-part .address form .name input {
+    margin-right: 30px;
+}
+
+.payment .first-part .address form .country input {
+    width: 630px;
+}
+
+.payment .first-part .address form .habitation input {
+    width: 630px;
+}
+
+.payment .first-part .address form .habitation-first-part {
+    display: flex   ;
+}
+
+.payment .first-part .address form .habitation-first-part input {
+    margin-right: 30px;
+}
+
+.payment .first-part .address form .habitation-second-part {
+    display: flex   ;
+}
+
+.payment .first-part .address form .habitation-second-part input {
+    margin-right: 30px;
+}
+
+.payment .first-part .address form .tel input {
+    width: 630px;
+}
+
+.payment .first-part .conclusion {
+    background-color: rgb(240, 245, 255);
+    width: 350px;
+    padding: 20px;
+}
+
+.payment .first-part .conclusion .title {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.payment .first-part .conclusion .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment .first-part .conclusion .shipping-cost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment .first-part .conclusion .net-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment .first-part .conclusion .msg {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.payment .first-part .conclusion .border {
+    border-bottom: 1px solid #bebebe;
+    margin-bottom: 20px;
+}
+
+.payment .first-part .conclusion .btn {
+    width: 100%;
+    border-radius: 50px;
+    background-color: rgb(50, 50, 255);
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.payment .second-part {
+    margin-bottom: 40px;
+    width: 830px;
+}
+
+.payment .second-part .title {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.payment .second-part .border {
+    margin-bottom: 20px;
+}
+
+.payment .second-part form .free-shipping {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #2196F3;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.payment .second-part form .free-shipping div {
+    display: flex;
+    align-items: center;
+}
+
+.payment .second-part form .free-shipping label {
+    margin-left: 30px;
+}
+
+.payment .second-part form .kerry-shipping {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #2196F3;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.payment .second-part form .kerry-shipping div {
+    display: flex;
+    align-items: center;
+}
+
+.payment .second-part form input {
+    margin-right: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.payment .third-part {
+    width: 830px;
+}
+
+.payment .third-part .title {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.payment .third-part .border {
+    width: 830px;
+    margin-bottom: 20px;
+}
+
+.payment .third-part form .cash {
+    display: flex;
+    align-items: center;
+    border: 2px solid #2196F3;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.payment .third-part form .cash label {
+    margin-left: 30px;
+}
+
+.payment .third-part form .debit {
+    display: flex;
+    align-items: center;
+    border: 2px solid #2196F3;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.payment .third-part form .debit label {
+    margin-left: 30px;
+}
+
+.payment .third-part form input {
+    margin-right: 30px;
+    height: 30px;
+    width: 30px;
+}

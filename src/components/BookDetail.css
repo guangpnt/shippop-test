@@ -1,0 +1,238 @@
+.book-detail {
+    display: flex;
+    align-items: center;
+    margin: 50px 150px 0 150px;
+}
+
+.book-detail img {
+    width: 400px;
+    height: 600px;
+    margin-right: 70px;
+}
+
+.book-detail .spec {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-detail .spec .name {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.book-detail .spec .detail {
+    margin-top: 40px;
+}
+
+.book-detail .spec .price {
+    margin-top: 60px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.book-detail .spec .price h1{
+    display: inline;
+    font-size: 40px;
+}
+
+.book-detail .spec .price h3{
+    display: inline;
+    color: rgb(150, 150, 150);
+    text-decoration: line-through;
+    font-size: 25px;
+}
+
+.book-detail .spec .group-btn {
+    margin-top: 60px;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-detail .spec .group-btn .num-changer {
+    width: 100px;
+    background-color: rgb(223, 223, 223);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.book-detail .spec .group-btn .num-changer div{
+    display: flex;
+    flex-direction: column;
+}
+
+.book-detail .spec .group-btn .num-changer div .arr-up{
+    cursor: pointer;
+}
+
+.book-detail .spec .group-btn .num-changer div .arr-down{
+    cursor: pointer;
+}
+
+.book-detail .spec .group-btn .num-changer:focus {
+    outline: none;
+}
+
+
+.book-detail .spec .group-btn .add-btn {
+    background-color: rgb(50, 50, 255);
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.book-detail .spec .group-btn .wishlist-btn {
+    background-color: rgb(255, 166, 50);
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-detail .spec .group-btn .wishlist-btn .icon {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.book-detail .spec .group-share {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.book-detail .spec .group-share .email-icon {
+    position: relative;
+    background-color: rgb(0, 179, 0);    
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 0 10px;
+}
+
+.book-detail .spec .group-share .email-icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25px;
+    height: 25px;
+}
+
+.book-detail .spec .group-share .twitter-icon {
+    position: relative;
+    background-color: rgb(0, 0, 109);    
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 0 10px;
+}
+
+.book-detail .spec .group-share .twitter-icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25px;
+    height: 25px;
+}
+
+.book-detail .spec .group-share .facebook-icon {
+    position: relative;
+    background-color: #3e3eff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 0 10px;
+}
+
+.book-detail .spec .group-share .facebook-icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25px;
+    height: 25px;
+}
+
+.book-detail .spec .group-share .google-icon {
+    position: relative;
+    background-color: orangered;    
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 0 10px;
+}
+
+.book-detail .spec .group-share .google-icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25px;
+    height: 25px;
+}
+
+.book-preview {
+    margin-top: 20px;
+    margin: 50px 150px 0 150px;
+}
+
+.book-preview img {
+    width: 110px;
+    height: 160px;
+    margin-right: 20px;
+}
+
+.book-footer {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    margin: 50px 150px 30px 150px;
+}
+
+.book-footer .about {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(100, 100, 255);
+    width: 100px;
+    font-size: 14px;
+}
+
+.book-footer .detail {
+    color: rgb(150, 150, 150);
+    text-align: center;
+    font-weight: bold;
+    width: 100px;
+    font-size: 14px;
+}
+
+.border {
+    border-bottom: 2px solid #bebebe;
+    margin-bottom: 60px;
+}
+
+.book-about {
+    margin: 50px 150px 0 150px;
+    margin-bottom: 100px;
+}
+
+.book-about span{
+    font-weight: bold;
+}
+
+.book-about .content {
+    color: rgb(110, 110, 110);
+}

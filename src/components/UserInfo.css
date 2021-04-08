@@ -1,0 +1,210 @@
+.user-info {
+    position: absolute;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+.user-info .title {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.user-info .email {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-info button {
+    color: rgb(219, 70, 70);
+    display: block;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(219, 70, 70);
+    margin: auto;   
+    cursor: pointer;
+}
+
+.mybook {
+    position: absolute;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+.mybook .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mybook .header .title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mybook .header .add-book-btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+.mybook .border {
+    margin-bottom: 10px;
+}
+
+.mybook .book-item {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mybook .book-item .name{
+    cursor: pointer;
+}
+
+.mybook .book-item .name:hover{
+    text-decoration: underline;
+}
+
+.mybook .group-btn .edit-btn {
+    border: 1px solid rgb(79, 224, 115);
+    background-color: rgb(79, 224, 115);
+    padding: 0 5px;
+    color: #fff;
+    border-radius: 3px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.mybook .group-btn .del-btn {
+    display: block;
+    border: 1px solid rgb(235, 48, 48);
+    background-color: rgb(235, 48, 48);
+    padding: 0 5px;
+    color: #fff;
+    border-radius: 3px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.add-book {
+    position: absolute;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding: 10px 40px;
+    z-index: 20;
+    background-color: #fff;
+    display: none;
+}
+
+.add-book .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-book .header .title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.add-book .header .close-btn {
+    font-size: 15px;
+    border: 2px solid red;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+.add-book .border {
+    margin-bottom: 25px;
+}
+
+.add-book form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-book form input {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.add-book form input:focus {
+    outline: none;
+}
+
+.add-book form textarea {
+    height: 200px;
+    resize: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.add-book form textarea:focus {
+    outline: none;
+}
+
+.add-book form button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(64, 223, 64);
+    color: #fff;
+    border: 1px solid rgb(64, 223, 64);
+    cursor: pointer;
+}
+
+.active {
+    display: block;
+}
+
+.err-msg {
+    color: red;
+    font-size: 14px;
+}
+
+.err-status {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+}
+
+.success-status {
+    color: green;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+}

@@ -1,0 +1,64 @@
+.edit-book {
+    position: absolute;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding: 10px 40px;
+    z-index: 20;
+    background-color: #fff;
+}
+
+.edit-book .title {
+    font-size: 60px;
+    text-align: center;
+}
+
+.edit-book .border {
+    margin-bottom: 20px;
+}
+
+.edit-book form input {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    width: 100%;
+}
+
+.edit-book form input:focus {
+    outline: none;
+}
+
+.edit-book form textarea {
+    height: 200px;
+    width: 100%;
+    resize: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.edit-book form textarea:focus {
+    outline: none;
+}
+
+.edit-book form select {
+    border: 1px solid rgb(221, 221, 221);
+    margin-bottom: 10px;
+}
+
+.edit-book form button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(64, 223, 64);
+    color: #fff;
+    border: 1px solid rgb(64, 223, 64);
+    cursor: pointer;
+    width: 100%;
+}
